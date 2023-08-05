@@ -46,7 +46,7 @@ public class Comment extends TimeStamped {
         this.user = user;
     }
 
-    public void setBoard() {
+    public void setBoard(Board board) {
         this.board = board;
     }
 }
